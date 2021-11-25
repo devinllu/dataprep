@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637562373472,
+  "lastUpdate": 1637821081299,
   "repoUrl": "https://github.com/devinllu/dataprep",
   "entries": {
     "DataPrep.EDA Benchmarks": [
@@ -310,6 +310,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.01671792747200017",
             "extra": "mean: 5.009886612799994 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jlpengcs@gmail.com",
+            "name": "Jinglin Peng",
+            "username": "jinglinpeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "93c7d6d8e3efd2c521567ef2135ebd6c5fd76749",
+          "message": "Merge pull request #752 from devinllu/feat/create_overview_variables_section\n\nFeat/create overview variables section",
+          "timestamp": "2021-11-24T19:32:22-08:00",
+          "tree_id": "9ee03fb1e3fe8c0548148d5f849188f8cf989bbf",
+          "url": "https://github.com/devinllu/dataprep/commit/93c7d6d8e3efd2c521567ef2135ebd6c5fd76749"
+        },
+        "date": 1637821078454,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "dataprep/tests/benchmarks/eda.py::test_create_report",
+            "value": 0.19373550207178394,
+            "unit": "iter/sec",
+            "range": "stddev: 0.015529527425316813",
+            "extra": "mean: 5.1616765606 sec\nrounds: 5"
           }
         ]
       }
