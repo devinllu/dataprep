@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1637821081299,
+  "lastUpdate": 1637824897944,
   "repoUrl": "https://github.com/devinllu/dataprep",
   "entries": {
     "DataPrep.EDA Benchmarks": [
@@ -341,6 +341,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.015529527425316813",
             "extra": "mean: 5.1616765606 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "qidanrui@gmail.com",
+            "name": "qidanrui",
+            "username": "qidanrui"
+          },
+          "committer": {
+            "email": "qidanrui@gmail.com",
+            "name": "qidanrui",
+            "username": "qidanrui"
+          },
+          "distinct": true,
+          "id": "997b3aba82e3a226709bc79362c1f3ce3accb814",
+          "message": "Add frontend dist folder",
+          "timestamp": "2021-11-24T23:01:25-08:00",
+          "tree_id": "ec298d63ccd494b535745076ab0d5a735b6654bf",
+          "url": "https://github.com/devinllu/dataprep/commit/997b3aba82e3a226709bc79362c1f3ce3accb814"
+        },
+        "date": 1637824895318,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "dataprep/tests/benchmarks/eda.py::test_create_report",
+            "value": 0.18901768972331737,
+            "unit": "iter/sec",
+            "range": "stddev: 0.17044156379364966",
+            "extra": "mean: 5.2905101182000065 sec\nrounds: 5"
           }
         ]
       }
