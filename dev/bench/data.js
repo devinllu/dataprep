@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643677898722,
+  "lastUpdate": 1643866840153,
   "repoUrl": "https://github.com/devinllu/dataprep",
   "entries": {
     "DataPrep.EDA Benchmarks": [
@@ -465,6 +465,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.05071296895117696",
             "extra": "mean: 3.1705486858000027 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jlpengcs@gmail.com",
+            "name": "Jinglin Peng",
+            "username": "jinglinpeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c006c26adcfbb91bec73f0324b1a32c89714676",
+          "message": "Merge pull request #797 from sfu-db/new_gui\n\nfeat(clean): New version of GUI",
+          "timestamp": "2022-02-01T23:11:05-08:00",
+          "tree_id": "08ebde87e8aaea32f072b0d39e40bd8a970a8b85",
+          "url": "https://github.com/devinllu/dataprep/commit/5c006c26adcfbb91bec73f0324b1a32c89714676"
+        },
+        "date": 1643866837145,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "dataprep/tests/benchmarks/eda.py::test_create_report",
+            "value": 0.27410868467963,
+            "unit": "iter/sec",
+            "range": "stddev: 0.03298878406103689",
+            "extra": "mean: 3.6481879483999933 sec\nrounds: 5"
           }
         ]
       }
