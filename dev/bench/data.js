@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644364494570,
+  "lastUpdate": 1644453453020,
   "repoUrl": "https://github.com/devinllu/dataprep",
   "entries": {
     "DataPrep.EDA Benchmarks": [
@@ -558,6 +558,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.17114166672617617",
             "extra": "mean: 3.9358426218000035 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "65895033+gremur@users.noreply.github.com",
+            "name": "Grey Murav",
+            "username": "gremur"
+          },
+          "committer": {
+            "email": "youngw@sfu.ca",
+            "name": "Weiyuan Wu",
+            "username": "dovahcrow"
+          },
+          "distinct": true,
+          "id": "75820abd4bc295694ab1cb8c758907433507f253",
+          "message": "Update currencies.json\n\nCorrected typo in Panamanian balboa symbol and replaced symbol for Russian ruble with correct one",
+          "timestamp": "2022-02-08T22:22:33-08:00",
+          "tree_id": "f49c80d95c447727f1753c48a8daae785dcb71f5",
+          "url": "https://github.com/devinllu/dataprep/commit/75820abd4bc295694ab1cb8c758907433507f253"
+        },
+        "date": 1644453450325,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "dataprep/tests/benchmarks/eda.py::test_create_report",
+            "value": 0.27134096111023137,
+            "unit": "iter/sec",
+            "range": "stddev: 0.8256758789842116",
+            "extra": "mean: 3.685400080800014 sec\nrounds: 5"
           }
         ]
       }
