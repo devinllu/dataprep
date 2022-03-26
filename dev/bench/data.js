@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1647989346258,
+  "lastUpdate": 1648338820780,
   "repoUrl": "https://github.com/devinllu/dataprep",
   "entries": {
     "DataPrep.EDA Benchmarks": [
@@ -775,6 +775,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.048516644477336134",
             "extra": "mean: 4.9239231323999775 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yixuy@sfu.ca",
+            "name": "henryye",
+            "username": "yixuy"
+          },
+          "committer": {
+            "email": "qidanrui@gmail.com",
+            "name": "Danrui Qi",
+            "username": "qidanrui"
+          },
+          "distinct": true,
+          "id": "c4933491300926baa9736f185caef4da69bb2fef",
+          "message": "Finish the backend for selecting columns  in cleaning",
+          "timestamp": "2022-03-24T17:44:13-07:00",
+          "tree_id": "6bc4312fcc1287e2e2ca704d0e38c7d7be44eb05",
+          "url": "https://github.com/devinllu/dataprep/commit/c4933491300926baa9736f185caef4da69bb2fef"
+        },
+        "date": 1648338817721,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "dataprep/tests/benchmarks/eda.py::test_create_report",
+            "value": 0.18565097274241932,
+            "unit": "iter/sec",
+            "range": "stddev: 0.1010257393200553",
+            "extra": "mean: 5.3864517121999995 sec\nrounds: 5"
           }
         ]
       }
