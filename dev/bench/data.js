@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649810889350,
+  "lastUpdate": 1650584234709,
   "repoUrl": "https://github.com/devinllu/dataprep",
   "entries": {
     "DataPrep.EDA Benchmarks": [
@@ -837,6 +837,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.07882824072152836",
             "extra": "mean: 4.020091733999993 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jlpengcs@gmail.com",
+            "name": "Jinglin Peng",
+            "username": "jinglinpeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ec857e76d397b2a72ce9a9a1e56b6625ab1655ee",
+          "message": "Merge pull request #883 from khoatxp/create-db-report/refactor-java-style-code\n\neda.create-db-report: restructure create_db_report and clean java style code",
+          "timestamp": "2022-04-21T15:26:37-07:00",
+          "tree_id": "8abe93ec5a0f0d34c2e309b3d25ee2af74cb35b6",
+          "url": "https://github.com/devinllu/dataprep/commit/ec857e76d397b2a72ce9a9a1e56b6625ab1655ee"
+        },
+        "date": 1650584233606,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "dataprep/tests/benchmarks/eda.py::test_create_report",
+            "value": 0.24011320119966562,
+            "unit": "iter/sec",
+            "range": "stddev: 0.049928401496574286",
+            "extra": "mean: 4.164702294600005 sec\nrounds: 5"
           }
         ]
       }
