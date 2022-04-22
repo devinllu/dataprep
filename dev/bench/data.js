@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1650584234709,
+  "lastUpdate": 1650656571092,
   "repoUrl": "https://github.com/devinllu/dataprep",
   "entries": {
     "DataPrep.EDA Benchmarks": [
@@ -868,6 +868,37 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.049928401496574286",
             "extra": "mean: 4.164702294600005 sec\nrounds: 5"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jlpengcs@gmail.com",
+            "name": "Jinglin Peng",
+            "username": "jinglinpeng"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d56861e5bed3c608cace74983f797dc729072d0a",
+          "message": "Merge pull request #888 from sfu-db/load_db\n\nfeat(eda): add get_db_names",
+          "timestamp": "2022-04-21T16:43:22-07:00",
+          "tree_id": "772e506adc2048af643a99f93db4c897d06f16bb",
+          "url": "https://github.com/devinllu/dataprep/commit/d56861e5bed3c608cace74983f797dc729072d0a"
+        },
+        "date": 1650656568820,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "dataprep/tests/benchmarks/eda.py::test_create_report",
+            "value": 0.24011999559953767,
+            "unit": "iter/sec",
+            "range": "stddev: 0.04904143862212551",
+            "extra": "mean: 4.164584450800004 sec\nrounds: 5"
           }
         ]
       }
